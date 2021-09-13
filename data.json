@@ -1,0 +1,160 @@
+{
+  "pictures": [
+    {
+      "id": "0001",
+      "name": "Рождение Венеры",
+      "painter": "Сандро Боттичелли, 1501 г",
+      "prices": {
+        "current": "1000000",
+        "old": "2000000"
+      },
+      "status": "active",
+      "size": "1",
+      "preview": "img1"
+    },
+    {
+      "id": "0002",
+      "name": "Картина 2",
+      "painter": "Описание картины 2",
+      "prices": {
+        "current": "1000000",
+        "old": "0"
+      },
+      "status": "active",
+      "size": "1",
+      "preview": "img2"
+    },
+    {
+      "id": "0003",
+      "name": "Картина 3",
+      "painter": "Описание картины 3",
+      "prices": {
+        "current": "1000000",
+        "old": "2000000"
+      },
+      "status": "active",
+      "size": "2",
+      "preview": "img3"
+    },
+    {
+      "id": "0004",
+      "name": "Картина 4",
+      "painter": "Описание картины 4",
+      "prices": {
+        "current": "1000000",
+        "old": "2000000"
+      },
+      "status": "active",
+      "size": "1",
+      "preview": "img4"
+    },
+    {
+      "id": "0005",
+      "name": "Картина 5",
+      "painter": "Описание картины 5",
+      "prices": {
+        "current": "1000000",
+        "old": "0"
+      },
+      "status": "sold",
+      "size": "1",
+      "preview": "img5"
+    },
+    {
+      "id": "0006",
+      "name": "Картина 6",
+      "painter": "Описание картины 6",
+      "prices": {
+        "current": "1000000",
+        "old": "0"
+      },
+      "status": "active",
+      "size": "1",
+      "preview": "img6"
+    },
+    {
+      "id": "0007",
+      "name": "Картина 7",
+      "painter": "Описание картины 7",
+      "prices": {
+        "current": "1000000",
+        "old": "0"
+      },
+      "status": "active",
+      "size": "1",
+      "preview": "img7"
+    },
+    {
+      "id": "0008",
+      "name": "Картина 8",
+      "painter": "Описание картины 8",
+      "prices": {
+        "current": "1000000",
+        "old": "2000000"
+      },
+      "status": "active",
+      "size": "1",
+      "preview": "img8"
+    },
+    {
+      "id": "0009",
+      "name": "Картина 9",
+      "painter": "Описание картины 9",
+      "prices": {
+        "current": "1000000",
+        "old": "2000000"
+      },
+      "status": "sold",
+      "size": "1",
+      "preview": "img9"
+    },
+    {
+      "id": "00010",
+      "name": "Картина 10",
+      "painter": "Описание картины 10",
+      "prices": {
+        "current": "1000000",
+        "old": "0"
+      },
+      "status": "active",
+      "size": "1",
+      "preview": "img10"
+    },
+    {
+      "id": "00011",
+      "name": "Картина 11",
+      "painter": "Описание картины 11",
+      "prices": {
+        "current": "1000000",
+        "old": "2000000"
+      },
+      "status": "active",
+      "size": "1",
+      "preview": "img11"
+    },
+    {
+      "id": "00012",
+      "name": "Картина 12",
+      "painter": "Описание картины 12",
+      "prices": {
+        "current": "1000000",
+        "old": "0"
+      },
+      "status": "active",
+      "size": "1",
+      "preview": "img12"
+    },
+    {
+      "id": "00013",
+      "name": "Картина 13",
+      "painter": "Описание картины 13",
+      "prices": {
+        "current": "1000000",
+        "old": "2000000"
+      },
+      "status": "sold",
+      "size": "1",
+      "preview": "img13"
+    }
+  ]
+}

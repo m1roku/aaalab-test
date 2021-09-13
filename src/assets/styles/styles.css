@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/lora/lora-italic.woff2") format("woff2"),
+    url("/fonts/lora/lora-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/roboto/roboto-regular.woff2") format("woff2"),
+    url("/fonts/roboto/roboto-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --codGray: #1b1717;
+  --swissCoffee: #dccece;
+  --swissCoffee50: rgba(220, 206, 206, 0.5);
+  --swissCoffee60: rgba(220, 206, 206, 0.6);
+  --silver: #c4c4c4;
+  --emperor: #554e4e;
+
+  --bg: var(--codGray);
+  --bg-invert: var(--swissCoffee);
+  --text: var(--swissCoffee);
+  --text-inactive: var(--swissCoffee50);
+  --text-secondary: var(--swissCoffee60);
+  --text-invert: var(--codGray);
+  --border: var(--silver);
+  --button-hover: var(--emperor);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.lora {
+  font-family: Lora, Times, serif;
+}
+
+body {
+  font-size: 100%;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg);
+}
+
+.container {
+  width: 100%;
+  max-width: 78rem;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.main__heading {
+  margin-bottom: 5rem;
+}
